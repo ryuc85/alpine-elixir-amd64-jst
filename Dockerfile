@@ -9,3 +9,5 @@ rm -f Precompiled.zip && \
 cd .. && mv elixir /usr/local/elixir
 RUN apk del wget unzip
 ENV PATH $PATH:/usr/local/elixir/bin
+
+CMD ["elixir", "--version"]
