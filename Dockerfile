@@ -5,6 +5,6 @@ erlang-crypto && \
 rm -rf /var/cache/apk/*
 
 RUN mix local.hex --force && \
-mix local.rebar3 --force
+mix local.rebar --force
 
 CMD ["/bin/sh"]
